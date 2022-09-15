@@ -1,0 +1,8 @@
+[
+    {
+        "nome": "Banana", "quantidade": 15, "Fornecedores": ["Extra", "Assai", "Bom Tempo"]
+    },
+    {  
+        "nome": "Laranja", "quantidade": 20, "Fornecedores": ["Extra", "Assai", "Bom Tempo"]
+    }
+]
