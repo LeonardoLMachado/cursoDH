@@ -28,7 +28,7 @@
       "Depp"
     ],
     "anoDeLancamento": 2022,
-    "emCartaz": true
+    "emCartaz": false
   },
   {
     "codigo": 4,
@@ -48,5 +48,5 @@
     ],
     "anoDeLancamento": 2005,
     "emCartaz": true
-  }
+  },
 ]
