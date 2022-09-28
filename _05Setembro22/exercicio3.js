@@ -2,9 +2,9 @@ function adicionarHttp(url) {
   return "http://" + url;
 }
 function processar(lista, funcao) {
-  let preretorno = [];
+  let preRetorno = [];
   for (x of lista) {
-    preretorno.push(funcao(x));
+    preRetorno.push(funcao(x));
   }
   return preretorno;
 }

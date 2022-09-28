@@ -1,5 +1,5 @@
 
-let agora = new Date();
+let agora = new Date(2022,09,28);
 console.log(agora);
 
 /* configurando parametros da New Date */
