@@ -1,0 +1,105 @@
+/* Para o <header>
+
+Cor de fundo "lightseagreen"
+Fonte branca
+Tamanho da fonte 28px
+Uma borda inferior sólido de 3px de cor indigo
+Padding de 22px
+Uma margem de 15px para baixo, para separar o header da secção principal
+Texto centralizado
+Não esqueça do box-sizing  */
+header {
+  background-color: lightseagreen;
+  color: white;
+  font-size: 28px;
+  border-bottom: 3px solid indigo;
+  padding: 22px;
+  margin-bottom: 15px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Para a <section>
+
+
+Largura de 50% do elemento que o contem.
+Margem esquerda de 25%
+Cor de fundo "gainsboro"
+Margem de 15px para baixo, para afastar o footer
+Padding de 12px a esquerda
+Padding de 30px para cima e para baixo
+Borda preta tracejada (dashed) de 1px
+Tente adicionar a regra border-radius:5px para ver o que acontece
+Texto centralizado
+Não esqueça do box-sizing  */
+
+section {
+  box-sizing: border-box;
+  width: 50%;
+  margin-left: 25%;
+  background-color: gainsboro;
+  margin-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 12px;
+  border: 1px dashed black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Para o <footer>
+
+
+Cor de fundo "rebeccapurple"
+Fonte branca
+Uma borda superior sólida de 1px e cor "lightseagreen"
+Padding de 12px
+Uma altura fixa de 40px
+Texto centralizado
+Não esqueça o box sizing  */
+
+footer {
+  box-sizing: border-box;
+  background-color: rebeccapurple;
+  color: white;
+  border-top: 1px solid lightseagreen;
+  padding: 12px;
+  height: 40px;
+  text-align: center;
+}
+
+/* 
+- a <div> com a classe "acima" ocupe 40% da altura da viewport
+- a <div> com classe "abaixo" ocupe a altura restante, de forma que no fim, ambos ocupem  100% da altura do viewport
+- ambos ocupem 100% da largura do body */
+.acima {
+  background-color: blueviolet;
+  height: 40vh;
+  width: 100%;
+}
+
+.abaixo {
+  width: 100%;
+  background-color: brown;
+  height: 60vh;
+  flex-direction: row-reverse;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ligacoes {
+  display: flex;
+}
+
+.jogo-dardos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.peca-tetris {
+    align-self: flex-end;
+}
